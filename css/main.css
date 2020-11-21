@@ -23,13 +23,13 @@
   min-height: 200px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 /* header menu */
 .header__menu{
   width: 100%;
   min-height: 100px;
-  border: 1px solid red;
+  border: 0px solid red;
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -73,7 +73,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 .section__left{
   width: 730px;
@@ -86,4 +86,16 @@
   min-height: 300px;
   background: #f0f0f0;
   padding: 50px 40px;
+}
+/* footer */
+.footer{
+  width: 1140px;
+  min-height: 50px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer__content{
+  width: 100%;
+  padding: 15px 40px;
+  background: #f0f0f0;
 }
